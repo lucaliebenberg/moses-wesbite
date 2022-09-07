@@ -99,9 +99,10 @@
 .about__image {
     padding-left: 15rem;
     padding-top: 5rem;
+    transition: all .4s ease-in-out;
 }
 .about__image:hover {
-    transform: scale(1.8)
+    transform: scale(1.2)
 }
 img {
     height: 477px;
@@ -168,7 +169,7 @@ img {
     padding-bottom: .5rem;
 }
 .about__me-item-para {
-    font-size: 1rem;
+    font-size: 3rem;
     padding-top: .65rem;
     max-width: 39rem;
     font-weight: 200;
@@ -224,6 +225,7 @@ img {
     margin: 0 .75rem;
     font-size: 3rem;
     color: var(--white);
+    text-decoration: none;
     transition: all .5s ease;
 }
 .footer__icons i:hover {
@@ -542,7 +544,8 @@ img {
         margin-right: 1rem;
     }
     .about__image {
-        margin-top: -6rem;
+        /* margin-top: -1rem; */
+        padding-left: 20rem;
     }
     .about-image img {
         height: 822px;
