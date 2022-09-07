@@ -182,6 +182,7 @@
   margin: 0 0.75rem;
   font-size: 3rem;
   color: var(--white);
+  text-decoration: none;
   transition: all 0.5s ease;
 }
 .footer__icons i:hover {
