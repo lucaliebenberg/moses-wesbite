@@ -247,6 +247,11 @@ img {
   line-height: 2.5;
 }
 
+.footer__info a {
+  text-decoration: none;
+  color: var(--light-purple);
+}
+
 .footer__copyright-container {
   flex-direction: row;
   width: 100%;
